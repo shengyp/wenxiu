@@ -1,0 +1,202 @@
+/* Made with http://icomoon.io/ */
+.event {
+	/* margin-top: 10px; */
+	width: 40%;
+	height: 35px;
+	/* border: #f0f0f0 solid 2px; */
+	background-color: pink;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+	/* border-radius: 30px; */
+
+}
+
+.text-center {
+	text-align: center;
+	box-shadow: black;
+	margin: 5px 0;
+	/* line-height: 40px; */
+}
+
+.event1 {
+	/* margin-top: 10px; */
+	width: 30%;
+	height: 35px;
+	margin-left: 5px;
+	border-radius: 10px;
+	background-color: green;
+	/* border: #f0f0f0 solid 2px; */
+	float: left;
+	line-height: 35px;
+	text-align: center;
+
+}
+
+.event2 {
+	/* margin-top: 10px; */
+	width: 30%;
+	height: 35px;
+	background-color: blue;
+	/* border: #f0f0f0 solid 2px; */
+	float: right;
+	/* right: 20px; */
+	/* margin-right: 70px; */
+	border-radius: 10px;
+	line-height: 35px;
+
+}
+
+.event2r {
+	/* margin-top: 10px; */
+	width: 30%;
+	height: 35px;
+	/* border: #f0f0f0 solid 2px; */
+	background-color: orange;
+	float: right;
+	/* right: 20px; */
+	border-radius: 10px;
+	margin-right: 70px;
+	line-height: 35px;
+	text-align: center;
+
+}
+
+.navbox {
+	/* margin-top: 10px; */
+	width: 100%;
+	height: 35px;
+	/* margin: 12px 0 5px 0; */
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	/* border: #f0f0f0 solid 2px; */
+	background-color: aqua;
+	/* position: absolute; */
+
+}
+
+*,
+*:after,
+*:before {
+
+	box-sizing: border-box;
+}
+
+body,
+html {
+	font-size: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 69em;
+	margin: 0 auto;
+	padding: 0 1.875em 3.125em;
+}
+
+.cbp_tmtimeline {
+	margin: 30px 0 0 0;
+	padding: 0;
+	list-style: none;
+
+	position: relative;
+}
+
+/* The line */
+.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 10px;
+	background: #A48163;
+	left: 15%;
+	margin-left: -10px;
+}
+
+/* The date/time */
+.cbp_tmtimeline>li .cbp_tmtime {
+	display: block;
+	width: 25%;
+	padding-right: 100px;
+	position: absolute;
+}
+
+.cbp_tmtimeline>li .cbp_tmtime span {
+	display: block;
+	text-align: left;
+}
+
+.cbp_tmtimeline>li .cbp_tmtime span:first-child {
+	font-size: 0.9em;
+	color: #bdd0db;
+}
+
+.cbp_tmtimeline>li .cbp_tmtime span:last-child {
+	font-size: 1.1em;
+	/* color: #3594cb; */
+	color: #89594F;
+	;
+}
+
+.cbp_tmtimeline>li:nth-child(odd) .cbp_tmtime span:last-child {
+	/* color: #6cbfee; */
+}
+
+/* Right content */
+.cbp_tmtimeline>li .cbp_tmlabel {
+	margin: 0 0 10px 20%;
+	background: #A48163;
+	color: #fff;
+	padding: 1.3em;
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 1.4;
+	position: relative;
+	border-radius: 5px;
+}
+
+.cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+	/* background: #6cbfee; */
+	/* background: #DC9843; */
+	background: #89594F;
+}
+
+
+.cbp_tmtimeline>li .cbp_tmlabel h2 {
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* The triangle */
+.cbp_tmtimeline>li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-right-color: #89594F;
+	border-width: 10px;
+	top: 10px;
+}
+
+.cbp_tmtimeline>li .cbp_tmicon {
+	width: 40px;
+	height: 40px;
+
+	line-height: 40px;
+	position: absolute;
+	background: #89594F;
+	border-radius: 50%;
+	box-shadow: 0 0 0 8px #A48163;
+	text-align: center;
+	left: 15%;
+
+	margin: 0 0 0 -25px;
+}
